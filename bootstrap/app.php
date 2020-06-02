@@ -31,8 +31,6 @@ $app->singleton(
     App\Http\Kernel::class
 );
 
-j 
-
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
     App\Console\Kernel::class
